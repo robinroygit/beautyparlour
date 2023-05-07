@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Footer from "./container/Footer";
-import Header from "./container/header";
+import Header from "./container/Header";
 import Testimonial from "./container/Testimonial";
 import Services from "./container/Services";
 import Carousel from "./components/Carousel";
