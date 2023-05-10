@@ -1,6 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import servicesitems from "../constants/servicesitems";
+import AppWrap from "../wrapper/Appwrap";
+import MotionWrap from "../wrapper/MotionWrap";
+import SocialMedia from "../components/Socialmedia";
 
 const scaleVariants = {
   whileInView: {
@@ -15,8 +18,8 @@ const scaleVariants = {
 
 const Services = () => {
   return (
-    <div className="bd flex min-h-screen flex-col  justify-evenly items-center  relative">
-      <div className=" m-10 flex z-10 text-gray-700 font-Montserrat flex-col gap-4 justify-center items-center w-4/5 select-none">
+    <div className=" flex min-h-screen flex-col  justify-center items-center w-screen bg-gradient-to-r from-purple-50 to-[#f3ae8b]/50 overflow-hidden ">
+      <div className=" m-10 flex z-10 text-gray-700 font-Montserrat flex-col gap-4 justify-center items-center w-4/5 select-none ">
         <h1 className=" text-4xl">services</h1>
         <p className=" text-xl">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
@@ -24,19 +27,18 @@ const Services = () => {
           blanditiis eius itaque.
         </p>
       </div>
+    {/* <SocialMedia/> */}
 
-      <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-purple-50 to-[#f3ae8b]/50 z-0 overflow-hidden" />
-      {/* <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/25 bg-cover bg-center z-0 overflow-hidden" /> */}
 
       <motion.div
         // variants={scaleVariants}
         // whileInView={scaleVariants.whileInView}
-        className="app__header-circle containe flex justify-between items-center p-8 flex-wrap flex-1 gap-2 relative w-4/5"
+        className="app__header-circle containe flex justify-between items-center p-8 flex-wrap flex-1 gap-2 relativ w-4/5 "
       >
         {servicesitems.map((item, index) => (
 
           <div className="card relative group " key={index}>
-            {/* face1 😁 */}
+
             <div className=" face1 relative h-52 w-72 items-center content-center z-10 transition ease-in-out delay-150 duration-500 group-hover:translate-y-0 translate-y-24 shadow-lg shadow-black ">
               <img src={item.item} alt={item.item} className=" h-full w-full object-cover" />
 
@@ -54,7 +56,7 @@ const Services = () => {
               </div>
             </div>
 
-              {/* face2 😀 */}
+
             <div className=" face2 h-52 w-72 relative flex z-0 justify-center items-center box-border p-4  transition ease-in-out delay-150 duration-500 -translate-y-24 group-hover:translate-y-0 ">
               <div className="content text-xs pt-8 text-gray-800">
                 <p className=" select-none">
@@ -78,4 +80,8 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default AppWrap(
+  MotionWrap(Services, "app__skil"),
+   "services",
+   "app__whiteb"
+   );

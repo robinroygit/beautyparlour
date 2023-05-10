@@ -12,6 +12,7 @@ export default {
       },
       backgroundImage: {
         'service-background': "url('./src/assets/servicebackground1.jpg')",
+        'navmenu-background': "url('./src/assets/bgWhite.png')",
       },
     },
   },

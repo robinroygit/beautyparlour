@@ -2,6 +2,10 @@ import React from "react";
 import bpmodel from "../assets/bpmodel.png";
 import circle from "../assets/circle3.svg";
 import { motion } from "framer-motion";
+import AppWrap from "../wrapper/Appwrap";
+import MotionWrap from "../wrapper/MotionWrap";
+
+
 
 const scaleVariants = {
   whileInView: {
@@ -16,7 +20,7 @@ const scaleVariants = {
 
 const Header = () => {
   return (
-    <div className="app__header pt-20 px-10 flex flex-col md:flex-row w-full  justify-end items-center bg-gradient-to-r from-purple-50 to-[#f3ae8b] overflow-hidden">
+    <div className="app__header pt-20 px-10 flex flex-col lg:flex-row w-screen lg:h-screen min-h-screen justify-end items-center bg-gradient-to-r from-purple-50 to-[#f3ae8b] overflow-hidden ">
       
       <motion.div
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
@@ -47,9 +51,9 @@ const Header = () => {
       <motion.div
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 0.5, delayChildren: 0.5 }}
-        className="app__header-img flex justify-center items-center w-full  relative"
+        className="app__header-img flex justify-center items-end w-full h-full relative"
       >
-        <img src={bpmodel} className="z-[1] " width={680} alt="profile_bg" />
+        <img src={bpmodel} className="z-[1] object-cover " width={580} alt="profile_bg" />
 
         <motion.img
           whileInView={{ scale: [0, 1] }}
@@ -76,4 +80,9 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default AppWrap(
+  MotionWrap(Header, "app__skil"),
+   "home",
+   "app__white"
+   );
+
