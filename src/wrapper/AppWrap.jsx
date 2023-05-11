@@ -2,9 +2,9 @@
 import SocialMedia from "../components/Socialmedia"
 import NavigationDots from "../components/NavigationDots"
 
-const AppWrap = (Component,idName,classNames) =>function HOC() {
+const AppWrap = (Component,idName) =>function HOC() {
   return (
-    <div id={idName} className={`app__container relative flex flex-row min-h-screen ${classNames}` } >
+    <div id={idName} className={`app__container relative flex flex-row min-h-screen` } >
 
         <div className='app__wrapper app__flex flex flex-col w-full  '>
         <SocialMedia/>

@@ -43,7 +43,9 @@ const Header = () => {
           </p>
           <div className=" mx-20 ">
             <button className=" bg-rose-400 text-white font-bold px-8 w-full py-2 hover:ring-2 hover:ring-rose-500 duration-100">
+              <a href="#contact">
               Contact Us
+              </a>
             </button>
         </div>
       </motion.div>
@@ -81,8 +83,7 @@ const Header = () => {
 };
 
 export default AppWrap(
-  MotionWrap(Header, "app__skil"),
-   "home",
-   "app__white"
+  MotionWrap(Header,),
+  "home"
    );
 

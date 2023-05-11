@@ -39,7 +39,7 @@ const Navbar = () => {
           >
             <HiX onClick={() => setToggle(false)} className=" w-8 h-8 m-6 text-gray-600" />
             <ul className="w-full h-full flex justify-start items-start flex-col m-0 p-0 list-none ">
-              {["home", "about", "contact", "testimonial", "skills"].map(
+              {["home","services", "about" ,"testimonial","contact", ].map(
                 (item, index) => (
                   <li className=" p-4" key={index}>
                     <a className=" text-6xl capitalize font-bold font-Tangerine decoration-0 text-gray-600 hover:text-rose-400 " href={`#${item}`} onClick={() => setToggle(false)}>

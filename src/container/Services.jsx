@@ -81,7 +81,6 @@ const Services = () => {
 };
 
 export default AppWrap(
-  MotionWrap(Services, "app__skil"),
+  MotionWrap(Services),
    "services",
-   "app__whiteb"
    );
