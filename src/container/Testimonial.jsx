@@ -5,7 +5,7 @@ import MotionWrap from "../wrapper/MotionWrap";
 
 
 const Testimonial = () => {
-  console.log(data)
+
   return (
     <div className=" min-h-screen md:h-screen flex justify-center items-center p-8  w-screen overflow-hidden bg-white relative">
 

@@ -6,7 +6,6 @@ import AppWrap from "../wrapper/Appwrap";
 import MotionWrap from "../wrapper/MotionWrap";
 
 
-
 const scaleVariants = {
   whileInView: {
     scale: [0, 1],
