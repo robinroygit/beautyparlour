@@ -1,32 +1,32 @@
 
     [
         {"comment": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries", 
-        "image": "../src/assets/profile2.jpg",
-         "name":"ral",
-         "info":"Designer, LLC Team"
+        "image": "https://images.pexels.com/photos/5853671/pexels-photo-5853671.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+         "name":"avril",
+         "info":"Designer, ani manager"
         },
 
         {"comment": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text", 
         "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
-         "name":"joyboy",
-        "info":"Designer, LLC Team"
+         "name":"john",
+        "info":"photographer, LLC Team"
         },
 
         {"comment": "He standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from  by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham", 
         "image": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3763188.jpg&fm=jpg",
-         "name":"simran",
-         "info":"Designer, LLC Team"
+         "name":"raven",
+         "info":"artist, google art"
         },
 
         {"comment": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable ", 
-        "image": "../src/assets/kemal.jpg",
-         "name":"sagar",
-        "info":"Designer, LLC Team"
+        "image": "https://image.shutterstock.com/mosaic_250/2780032/1194497251/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-1194497251.jpg",
+         "name":"simon",
+        "info":"entrepreneur, esl freelance"
         },
 
         {"comment": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable ", 
-        "image": "../src/assets/kemal.jpg",
-         "name":"rahul",
+        "image": "https://images.assetsdelivery.com/compings_v2/fizkes/fizkes2011/fizkes201102042.jpg",
+         "name":"lilly",
         "info":"Designer, LLC Team"
         }
 
