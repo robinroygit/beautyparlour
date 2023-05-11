@@ -31,7 +31,7 @@ const Testimonial = () => {
                   <div className="client-info flex justify-center items-center text-left pb-12">
                     <div className="client-pic pr-4">
                       <a href="#">
-                        <img className=" aspect-square rounded-full" src={data.image} width="100" height="100" alt="profile image" />
+                        <img className=" w-24 h-24 aspect-square rounded-full" src={data.image}  alt={`profile ${data.image}`} />
                       </a>
                     </div>
 
