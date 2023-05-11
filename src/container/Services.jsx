@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import servicesitems from "../constants/servicesitems";
-import AppWrap from "../wrapper/Appwrap";
+import AppWrap from "../wrapper/AppWrap";
 import MotionWrap from "../wrapper/MotionWrap";
 import SocialMedia from "../components/Socialmedia";
 

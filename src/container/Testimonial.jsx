@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../constants/testimonial.json"
-import AppWrap from "../wrapper/Appwrap";
+import AppWrap from "../wrapper/AppWrap";
 import MotionWrap from "../wrapper/MotionWrap";
 
 

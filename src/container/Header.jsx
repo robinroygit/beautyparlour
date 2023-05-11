@@ -2,7 +2,7 @@ import React from "react";
 import bpmodel from "../assets/bpmodel.png";
 import circle from "../assets/circle3.svg";
 import { motion } from "framer-motion";
-import AppWrap from "../wrapper/Appwrap";
+import AppWrap from "../wrapper/AppWrap";
 import MotionWrap from "../wrapper/MotionWrap";
 
 
@@ -82,7 +82,7 @@ const Header = () => {
 };
 
 export default AppWrap(
-  MotionWrap(Header,),
+  MotionWrap(Header),
   "home"
    );
 
