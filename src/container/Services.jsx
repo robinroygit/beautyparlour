@@ -18,7 +18,7 @@ const scaleVariants = {
 
 const Services = () => {
   return (
-    <div className=" flex min-h-screen flex-col  justify-center items-center w-screen bg-gradient-to-r from-purple-50 to-[#f3ae8b]/50 overflow-hidden ">
+    <div className=" flex min-h-screen flex-col  justify-center items-center w-screen bg-gradient-to-r from-purple-50 to-[#f3ae8b]/50 overflow-hidden  ">
       <div className=" m-10 flex z-10 text-gray-700 font-Montserrat flex-col gap-4 justify-center items-center w-4/5 select-none ">
         <h1 className=" text-4xl">services</h1>
         <p className=" text-xl">
@@ -33,7 +33,7 @@ const Services = () => {
       <motion.div
         // variants={scaleVariants}
         // whileInView={scaleVariants.whileInView}
-        className="app__header-circle containe flex justify-between items-center p-8 flex-wrap flex-1 gap-2 relativ w-4/5 "
+        className="app__header-circle containe flex sm:justify-between justify-center items-center flex-wrap gap-2 relativ w-4/5 "
       >
         {servicesitems.map((item, index) => (
 
