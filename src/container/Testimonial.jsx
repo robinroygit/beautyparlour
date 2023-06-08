@@ -10,9 +10,9 @@ const Testimonial = () => {
     <div className=" min-h-screen md:h-screen flex justify-center items-center p-8  w-screen overflow-hidden bg-white relative">
 
       <div className=" TestimonialArea relative z-[2] py-12  ">
-        <div className="containe  w-screen m-8">
+        <div className="containe h-full  w-screen m-8">
           <div className="sec-title relative mb-12 mx-8 pb-4 font-serif  after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-20 after:h-2 after:bg-slate-700 ">
-            <h2 className=" text-4xl sm:text-6xl text-gray-800 font-extrabold font-serif uppercase tracking-wide">
+            <h2 className=" mt-8 text-3xl sm:text-4xl text-gray-800 font-extrabold font-serif uppercase tracking-wide">
               our Testimonials
             </h2>
             <p className=" text-gray-800">what client says about us?</p>

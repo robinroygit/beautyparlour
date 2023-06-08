@@ -7,7 +7,7 @@ const Footer = () => {
     <div id="contact" className=" min-h-screen w-full pt-1 bg-gradient-to-r from-[#f3ae8b]/25 to-purple-50">
 
       {/* form start  */}
-      <div className="container  mx-auto my-20 md:w-1/3 w-11/12 border border-rose-400 bg-white">
+      <div className="container  mx-auto my-20 md:w-1/3 w-11/12 border border-gray-400 bg-white">
         <div className="p-5 space-y-5 shadow-xl">
           <h4 className=" text-center text-3xl">contact us</h4>
           <form>
