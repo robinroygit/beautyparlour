@@ -5,7 +5,7 @@ import MotionWrap from "../wrapper/MotionWrap";
 
 const About = () => {
   return (
-    <div className="border border-red-600 flex flex-col items-center justify-center bg-gradient-to-r from-[#f3ae8b]/25 to-purple-50 ">
+    <div className=" flex flex-col items-center justify-center bg-gradient-to-r from-[#f3ae8b]/25 to-purple-50 ">
 
        <h1 className=" top-6 font-bold text-3xl lg:text-8xl font-serif text-rose-400  ">
         <span className=" lg:text-9xl text-3xl text-gray-600">ABOUT</span> US
